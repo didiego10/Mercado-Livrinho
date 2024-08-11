@@ -1,0 +1,26 @@
+.loading{
+    font-size: 2rem;
+    margin: 200px auto 0;
+    animation: spin 1s linear infinite;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(126, 24, 24);
+}
+
+
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,21 @@
+.header{
+    background-color: #fff159;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.app-name{
+    display: flex;
+    width: 100%;
+    color: rgb(118, 31, 31);
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
